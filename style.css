@@ -1,0 +1,221 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+
+/*Selector Universal - Reset */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* Generales */
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header, footer {
+    background-color: #ffeee9;
+    color: #79673f;
+}
+
+/* Header */
+
+.header-contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding-top: 15px;
+    flex-wrap: wrap;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: left;
+}
+
+.header-logo-img {
+    width: 62%;
+    margin-left: 20px;
+}
+
+.header-lista {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.header-lista-items {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    margin: 30px;
+    text-transform: uppercase;
+}
+
+.header-contenedor div nav .header-lista .header-lista-items a {
+    color: #79673f;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Index - section 1*/
+
+.inicio-img{
+    width: 100%;
+    height: 45em;
+}
+
+/* Index - section 2 */
+
+.titulos {
+    background-color: #dfcabb;
+    text-align: center;
+    font-size: 3em;
+    color: #79673f;
+    padding: 40px;
+    overflow: hidden;
+}
+/*GRID*/
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 4fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 15%;
+    margin: 15px;
+    }
+    
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 1 / 3 / 2 / 4; }
+
+
+.parents-img {
+    margin-top: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+    border: #79673f 1px solid;
+}
+.parents-texto {
+    text-align: center;
+    font-size: 25px;
+    border: #79673f 1px solid;
+    color: #79673f;
+}
+
+/* Quienes Somos - section */
+
+.quienes-container{
+    background-color: #c68eae;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35em;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.quienes-img{
+    width: 50%;
+    height: 70%;
+    border-radius: 15%;
+}
+
+.quienes-texto {
+    width: 30%;
+    margin-left: 25px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+/* Whatsapp */
+
+.whatsapp {
+    position: fixed;
+    text-align: right;
+    bottom: 25px;
+    right: 25px;
+}
+
+.whatsapp-img {
+    width: 10%;
+}
+
+/* Footer */
+
+.footer-contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 5% /*sume 10px*/;
+    padding-top: 10px;
+}
+
+.footer-iconos {
+    margin: 15px 15px;
+    list-style-type: none;
+    /* display: flex;
+    justify-content: space-around; */
+    display: inline-block;
+}
+
+.footer-iconos-img {
+    width: 10%;
+    display: inline;
+    margin: auto 20px;
+}
+
+
+/* Medias Queries */
+
+@media screen and (max-width: 480px) {
+    .parent{
+        display: block
+    }
+    .quienes-container{
+        flex-wrap: wrap;
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+    }
+    .quienes-texto{
+        height: auto; /*80%*/
+        overflow: scroll;
+        width: 100%;
+        max-height: 100%;
+    }
+    .quienes-img{
+        margin-top: 7%;
+        margin-left: 25%;
+        height: 50%;
+    }
+    
+}
+
+@media screen and (min-width: 481px) and (max-width: 800px) {
+    .parent{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 2fr 2fr;
+        
+    }
+    .footer-contenedor{
+        margin-top: 200px;
+    }
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 2 / 1 / 3 / 2; }
+}
+
