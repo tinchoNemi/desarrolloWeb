@@ -38,6 +38,9 @@ header, footer {
 .header-logo {
     display: flex;
     justify-content: left;
+     /*transformaciones - transiciones*/
+     transition-property: all;
+     transition-duration: 3s;
 }
 
 .header-logo-img {
@@ -57,8 +60,20 @@ header, footer {
     display: flex;
     margin: 30px;
     text-transform: uppercase;
+    /*transformaciones - transiciones*/
+    transition-property: all;
+    transition-duration: 3s;
 }
 
+.header-lista-items:hover {
+    transform: scale(1.2);
+    text-decoration: underline;
+}
+
+.header-logo:hover{
+    transform: scale(1.5);
+    margin-left: 60px;
+}
 .header-contenedor div nav .header-lista .header-lista-items a {
     color: #79673f;
     font-size: 18px;
