@@ -32,6 +32,10 @@ header, footer, header nav {
     overflow: hidden;
 }
 
+.titulos-container{
+    margin-top: 8em;
+}
+
 /* Header */
 
 .header-logo-img {
@@ -42,6 +46,15 @@ header, footer, header nav {
 .nav-link {
     color: #79673f;
     font-weight: bold;
+}
+
+.navbar-transformacion {
+    transition: all 1.5s;
+}
+
+.navbar-transformacion:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
 }
 
 /* Index - section 1*/
@@ -83,7 +96,7 @@ header, footer, header nav {
 
 /* Quienes Somos - section */
 
-.quienes-container{
+/* .quienes-container{
     background-color: #c68eae;
     margin-top: 15px;
     display: flex;
@@ -98,22 +111,17 @@ header, footer, header nav {
     width: 50%;
     height: 70%;
     border-radius: 15%;
-}
+} */
 
 .quienes-texto {
-    width: 30%;
     margin-left: 25px;
-    color: white;
+    color: #79673f;
     font-size: 20px;
     font-weight: bold;
-
 }
 
 /* Contacto - Section */
 
-.contacto-container{
-    margin-top: 8em;
-}
 
 .btn-color{
     color:white;
@@ -157,8 +165,13 @@ header, footer, header nav {
     width: 10%;
     display: inline;
     margin: auto 20px;
+    transition: all 1.5s;
 }
 
+.footer-iconos-img:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+}
 
 /* Medias Queries */
 
