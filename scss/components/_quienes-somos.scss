@@ -1,0 +1,15 @@
+/* Quienes Somos - section */
+
+.quienes-texto {
+    margin-left: 25px;
+    color: #79673f;
+    font-size: 20px;
+    font-weight: bold;
+
+    @media screen and (max-width: 480px) {
+        height: auto; /*80%*/
+        overflow: scroll;
+        width: 100%;
+        max-height: 100%;
+    }
+}

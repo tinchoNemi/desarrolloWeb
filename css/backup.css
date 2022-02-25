@@ -179,23 +179,17 @@ header, footer, header nav {
     .parent{
         display: block
     }
-    .quienes-container{
-        flex-wrap: wrap;
-        max-width: 100%;
-        max-height: 100%;
-        display: block;
-    }
     .quienes-texto{
         height: auto; /*80%*/
         overflow: scroll;
         width: 100%;
         max-height: 100%;
     }
-    .quienes-img{
+    /* .quienes-img{
         margin-top: 7%;
         margin-left: 25%;
         height: 50%;
-    }
+    } */
     
 }
 

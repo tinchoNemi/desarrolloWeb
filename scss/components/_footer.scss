@@ -1,0 +1,34 @@
+/* Footer */
+
+.footer-contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    padding-top: 10px;
+    @media screen and (min-width: 481px) and (max-width: 800px) {
+            margin-top: 200px;
+        }
+    }
+
+
+.footer-iconos {
+    margin: 15px 15px;
+    list-style-type: none;
+    /* display: flex;
+    justify-content: space-around; */
+    display: inline-block;
+}
+
+.footer-iconos-img {
+    width: 10%;
+    display: inline;
+    margin: auto 20px;
+    transition: all 1.5s;
+    &:hover{
+        transform: scale(1.1);
+        text-decoration: underline;
+    }
+}

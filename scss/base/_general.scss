@@ -1,0 +1,52 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+
+/* Selector Universal - Reset */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* Generales */
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header, footer, header nav {
+    background-color: #ffeee9;
+    color: #79673f;
+}
+
+/* Titulos */
+
+.titulos-container{
+    margin-top: 8em;
+}
+
+.titulos {
+    background-color: #dfcabb;
+    text-align: center;
+    font-size: 3em;
+    color: #79673f;
+    padding: 40px;
+    overflow: hidden;
+}
+
+/* Whatsapp */
+
+.whatsapp {
+    position: fixed;
+    text-align: right;
+    bottom: 25px;
+    right: 25px;
+}
+
+.whatsapp-img {
+    width: 10%;
+}

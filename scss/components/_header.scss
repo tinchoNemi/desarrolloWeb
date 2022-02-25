@@ -1,0 +1,19 @@
+/* Header */
+
+.header-logo-img {
+    width: 50%;
+    margin-left: 20px;
+}
+
+.nav-link {
+    color: #79673f;
+    font-weight: bold;
+}
+
+.navbar-transformacion {
+    transition: all 1.5s;
+    &:hover{
+        transform: scale(1.1);
+        text-decoration: underline;
+    }
+}
