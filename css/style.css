@@ -47,6 +47,11 @@ header, footer, header nav {
   width: 10%;
 }
 
+.footer-contenedor {
+  align-items: center;
+  text-align: center;
+}
+
 /* Header */
 .header-logo-img {
   width: 50%;
@@ -161,10 +166,13 @@ header, footer, header nav {
 
 /* Footer */
 .footer-contenedor {
-  display: flex;
-  justify-content: space-around;
   align-items: center;
   text-align: center;
+}
+
+.footer-contenedor {
+  display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 5%;
   padding-top: 10px;
