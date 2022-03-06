@@ -5,75 +5,187 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Conexion Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <!-- Conexion CSS-->
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/style.css">
 
     <!--Title - nombre que aparece en la pestaña-->
-    <title>Mayoristas</title>
+    <title>Servicios - Centro de estetica integral</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/logo-favicon.ico" type="image/x-icon">
+    <!-- Etiquetas Meta -->
+    <meta name="description"
+        content="Anantara centro de estetica integral, ubicado en la ciudad de Rosario. Un momento solo para vos en un ambiente de relax y ameno donde solo tenes que relajarte y dejarte llevar por la armonia, el sonido y los aromas para desconectarte de la rutina diaria.">
+    <meta name="keywords"
+        content="Anantara, Centro de estetica, Estetica integral, Estetica, cuidado facial, tratamientos faciales, cuidado corporal, tratamientos corporales, productos naturales, relax">
+    <!-- Open Graph -->
+    <meta porperty="og:type" content="website">
+    <meta porperty="og:tytle" content="Anantara - Centro de estetica integral">
+    <meta porperty="og:url" content="https://www.anantaraestetica.com">
+    <meta porperty="og:image" content="https://www.anantaraestetica.com/images/logo-anantara-1">
+
 </head>
 
 <body>
 
     <!--Inicio Header-->
 
+    <!--Inicio Header-->
     <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand navbar-transformacion" href="../index.html">
+                    <img src="../images/logo-anantaraa.png" alt="Logo de la empresa" class="img-fluid header-logo-img">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        <a href="index.html">
-            <!--Logo de la empresa-->
-            <img src="" alt="">
-        </a>
-
-        <!--Lista Desordenada c/ links a las distintas secciones del sitio-->
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="productos.html">Productos</a>
-                </li>
-                <li>
-                    <a href="servicios.html">Servicios</a>
-                </li>
-                <li>
-                    <a href="quienes-somos.html">Quienes Somos</a>
-                </li>
-                <li>
-                    <a href="contacto.html">Contacto</a>
-                </li>
-            </ul>
+                <div class="collapse navbar-collapse justify-content-end me-2" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item fs-5 navbar-transformacion">
+                            <a class="nav-link active text-reset" aria-current="true" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item fs-5 navbar-transformacion">
+                            <a class="nav-link text-reset" href="productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item fs-5 navbar-transformacion">
+                            <a class="nav-link text-reset" href="servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item fs-5 navbar-transformacion">
+                            <a class="nav-link text-reset" href="quienes-somos.html">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item fs-5 navbar-transformacion">
+                            <a class="nav-link text-reset" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-
     </header>
 
-    <!--Fin Header-->
+    <!-- Fin Header-->
 
+    <!--Inicio Section 1 Servicios -->
+
+    <section class="titulos-container">
+        <h1 class="titulos">
+            SERVICIOS
+        </h1>
+
+    </section>
+
+    <!-- Fin Section 1 Servicios -->
+
+    <!-- Inicio Section 2 Servicios-->
+
+    <section class="container-fluid">
+
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 align-self-center">
+                <img src="../images/spa-completo.jpg" alt="Dos chicas en una sesion de spa" class="img-fluid rounded-3">
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 align-self-center">
+                <h2 class="d-flex justify-content-center servicios-titulos">Spa Completo</h2>
+                <p class="servicios-texto">
+                    Desconexión de 120 min. donde el objetivo principal es la relajación mental y corporal. El
+                    tratamiento comienza con una exfoliación completa con scrub de papaya y mango con ingredientes
+                    bio-activos que renuevan completamente la textura de la piel, oxigenan y detoxifican. El poder
+                    enzimático de la Papaya y el Mango de efecto renovador devuelven luminosidad y suavidad a la piel y
+                    la semilla de Maracuyá elimina efectivamente células muertas e impurezas. Masajes en todo el cuerpo
+                    con aceite de vainilla, se continúa con una Máscara de Café y Cacao con activos y componentes
+                    naturales que combaten los signos del envejecimiento y renuevan la piel desde el exterior. El
+                    tratamiento
+                    finaliza con una higiene facial básica (Sin Extracciones) y máscara facial según tipo de piel.</p>
+            </div>
+        </div>
+
+        <div class="row d-flex flex-wrap-reverse">
+            <div class="col-lg-6 col-md-12 col-sm-12 align-self-center">
+                <h2 class="d-flex justify-content-center servicios-titulos">Masajes Descontracturantes Cuerpo Entero
+                </h2>
+                <p class="servicios-texto">
+                    Sesión de 60 min. de Masajes en todo el cuerpo, logrando desconectar el cuerpo y la mente y fijando
+                    el masaje en las partes mas tensionadas. Se combinan los masajes manuales con maderoterapia.</p>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 align-self-center">
+                <img src="../images/masajes.jpg" alt="Una chica recibiendo un masaje" class="img-fluid rounded-3">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 align-self-center">
+                <img src="../images/masajes-piedras.jpg" alt="Una chica recibiendo un masaje de piedras calientes"
+                    class="img-fluid rounded-3">
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 align-self-center">
+                <h2 class="d-flex justify-content-center servicios-titulos">Masajes con piedras calientes</h2>
+                <p class="servicios-texto">
+                    Sesión de 60 min. de un Masaje Relajante de cuerpo entero con piedras volcánicas lisas y calientes
+                    en combinación con aceites naturales que generan una relajación tanto física como emocional. Reduce
+                    el dolor muscular, reduce notablemente los niveles de stress y ayuda a equilibrar el sistema
+                    circulatorio y nervioso.</p>
+            </div>
+        </div>
+
+        <div class="row d-flex flex-wrap-reverse">
+            <div class="col-lg-6 col-md-12 col-sm-12 align-self-center">
+                <h2 class="d-flex justify-content-center servicios-titulos">Hidratación Corporal</h2>
+                <p class="servicios-texto">
+                    Tratamiento de 60min. donde la realizamos una exfoliación completa con scrub de papaya y mango con
+                    ingredientes bio-activos que renuevan completamente la textura de la piel, oxigenan y detoxifican.
+                    El poder enzimático de la Papaya y el Mango de efecto renovador devuelven luminosidad y suavidad a
+                    la piel y la semilla de Maracuyá elimina efectivamente células muertas e impurezas. Finalizamos el
+                    tratamiento con masajes ultrahidratantes con una emulsión perlada. Por su alto contenido de ácido
+                    hialurónico,mantiene la piel hidratada por más tiempo.</p>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 align-self-center">
+                <img src="../images/hidratacion.jpg" alt="Una chica recibiendo una sesion de hidratacion"
+                    class="img-fluid rounded-3">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Fin Section 2 Servicios-->
 
     <!--Inicio Footer-->
 
-    <footer>
+    <footer class="footer-contenedor">
         <!--Aca van los iconos de las redes sociales, los cuales nos redireccionan a las mismas-->
-        <a href="">
-            <img src="" alt="">
-        </a>
+        <div>
+            <h2> Seguinos en Nuestras Redes</h2>
+            <div class="footer-iconos">
+                <a href="https://www.facebook.com/centro.anantara/" target="_blank">
+                    <img src="../images/facebook.png" alt="Icono de facebook" class="footer-iconos-img">
+                </a>
+                <a href="https://www.instagram.com/centro.anantara/" target="_blank">
+                    <img src="../images/instagram.png" alt="Icono de instagram" class="footer-iconos-img">
+                </a>
+            </div>
+        </div>
 
-        <a href="">
-            <img src="" alt="">
-        </a>
+        <!-- Mapa Google -->
+        <div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.1817686924232!2d-60.67955888496596!3d-32.946210080921304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7aca71bba9863%3A0xf1ebb7ead7f0b75a!2s3%20de%20Febrero%203847%2C%20S2002PGM%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1643328325166!5m2!1ses!2sar"
+                width="80%" height="90%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
 
-        <a href="">
-            <img src="" alt="">
-        </a>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quisquam culpa reiciendis exercitationem,
-            fugit
-            in, nisi similique illum esse qui veritatis dolor quibusdam minima error omnis nihil suscipit? Dignissimos,
-            facilis.</p>
     </footer>
-
-
     <!--Fin Footer-->
+
+    <!-- Conexion Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
 
 
 </body>

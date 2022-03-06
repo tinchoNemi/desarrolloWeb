@@ -1,0 +1,25 @@
+/* Servicios - section */
+.servicios-titulos{
+    font-size: 2.5em;
+    color: #79673f;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+
+    @media screen and (max-width: 480px) {
+        font-size: 2em;
+        height: auto;
+     }
+}
+
+.servicios-texto {
+   font-size: 1.25em;
+    color: #79673f;
+    font-weight: bold;
+    text-align: justify;
+
+    @media screen and (max-width: 480px) {
+        font-size: 1em;
+        height: auto;
+     }
+}

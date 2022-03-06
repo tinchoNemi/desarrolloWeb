@@ -1,5 +1,6 @@
 /* Font */
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito+Sans:wght@300&display=swap");
 /* Selector Universal - Reset */
 * {
   margin: 0%;
@@ -45,11 +46,6 @@ header, footer, header nav {
 
 .whatsapp-img {
   width: 10%;
-}
-
-.footer-contenedor {
-  align-items: center;
-  text-align: center;
 }
 
 /* Header */
@@ -143,18 +139,16 @@ header, footer, header nav {
 
 /* Quienes Somos - section */
 .quienes-texto {
-  margin-left: 25px;
+  font-size: 1.25em;
   color: #79673f;
-  font-size: 20px;
   font-weight: bold;
+  text-align: justify;
 }
 @media screen and (max-width: 480px) {
   .quienes-texto {
+    font-size: 1em;
     height: auto;
-    /*80%*/
-    overflow: scroll;
-    width: 100%;
-    max-height: 100%;
+    margin-top: 0.5em;
   }
 }
 
@@ -164,15 +158,40 @@ header, footer, header nav {
   background-color: #79673f;
 }
 
-/* Footer */
-.footer-contenedor {
-  align-items: center;
-  text-align: center;
+/* Servicios - section */
+.servicios-titulos {
+  font-size: 2.5em;
+  color: #79673f;
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+@media screen and (max-width: 480px) {
+  .servicios-titulos {
+    font-size: 2em;
+    height: auto;
+  }
 }
 
+.servicios-texto {
+  font-size: 1.25em;
+  color: #79673f;
+  font-weight: bold;
+  text-align: justify;
+}
+@media screen and (max-width: 480px) {
+  .servicios-texto {
+    font-size: 1em;
+    height: auto;
+  }
+}
+
+/* Footer */
 .footer-contenedor {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  text-align: center;
   flex-wrap: wrap;
   margin-top: 5%;
   padding-top: 10px;
@@ -186,8 +205,6 @@ header, footer, header nav {
 .footer-iconos {
   margin: 15px 15px;
   list-style-type: none;
-  /* display: flex;
-  justify-content: space-around; */
   display: inline-block;
 }
 
