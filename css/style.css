@@ -129,12 +129,38 @@ header, footer, header nav {
   height: 100%;
   border: #79673f 1px solid;
 }
+.parents-img:hover {
+  opacity: 0.9;
+}
 
 .parents-texto {
   text-align: center;
   font-size: 25px;
   border: #79673f 1px solid;
   color: #79673f;
+}
+
+.index-mapa {
+  margin-top: 2em;
+  height: 12em;
+}
+@media screen and (max-width: 480px) {
+  .index-mapa {
+    margin-top: 2em;
+    margin-bottom: 4em;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 800px) {
+  .index-mapa {
+    margin-top: 11em;
+  }
+}
+
+.index-texto-mapa {
+  color: #79673f;
+  align-items: center;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 /* Quienes Somos - section */
@@ -153,6 +179,11 @@ header, footer, header nav {
 }
 
 /* Contacto - Section */
+.contactos-title {
+  color: #79673f;
+  font-weight: bold;
+}
+
 .btn-color {
   color: white;
   background-color: #79673f;
@@ -187,36 +218,43 @@ header, footer, header nav {
 }
 
 /* Footer */
-.footer-contenedor {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-  flex-wrap: wrap;
-  margin-top: 5%;
-  padding-top: 10px;
-}
-@media screen and (min-width: 481px) and (max-width: 800px) {
-  .footer-contenedor {
-    margin-top: 200px;
-  }
+.footer-titulo {
+  border-bottom: solid thin #bababa;
 }
 
-.footer-iconos {
-  margin: 15px 15px;
-  list-style-type: none;
-  display: inline-block;
+.footer-icono:hover {
+  transform: scale(1.3);
 }
 
-.footer-iconos-img {
-  width: 10%;
-  display: inline;
-  margin: auto 20px;
-  transition: all 1.5s;
-}
-.footer-iconos-img:hover {
-  transform: scale(1.1);
+.footer-link:hover {
   text-decoration: underline;
+}
+
+.footer-copy {
+  background-color: #ffe0d7;
+}
+
+/* Productos - section */
+.productos-img {
+  opacity: 1;
+}
+.productos-img:hover {
+  opacity: 0.9;
+}
+
+.productos-title {
+  color: #79673f;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.productos-title:hover {
+  text-decoration: underline;
+}
+
+.productos-btn {
+  color: white;
+  background-color: #79673f;
+  margin-bottom: 0.8em;
 }
 
 /*# sourceMappingURL=style.css.map */

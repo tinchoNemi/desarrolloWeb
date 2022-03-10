@@ -1,0 +1,23 @@
+/* Productos - section */
+
+.productos-img {
+    opacity: 1;
+    &:hover {
+        opacity: 0.9;
+    }
+}
+
+.productos-title {
+    color: #79673f;
+    font-weight: bold;
+    font-size: 1.5em;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.productos-btn {
+    color: white;
+    background-color: #79673f;
+    margin-bottom: 0.8em;
+}
