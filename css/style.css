@@ -44,6 +44,11 @@ header, footer, header nav {
   width: 10%;
 }
 
+/* Aviso Servidor */
+.disclaimer {
+  display: none;
+}
+
 /* Header */
 .header-logo-img {
   width: 50%;
